@@ -11,13 +11,13 @@
 An **unsupervised machine learning system** that automatically classifies mutual funds and ETFs into the **Morningstar Style Box** categories, identifying whether they are **Growth, Value, Small Cap, or Large Cap** using only historical price data.
 
 ### Key Features:
-- 🤖 **Automatic Clustering**: K-Means algorithm classifies funds without pre-labeled data
-- 📊 **Style Box Visualization**: Interactive 3x3 heatmap of the Morningstar Style Box
-- 📈 **Risk-Return Analysis**: Visualize volatility vs. performance relationships
-- 🎯 **Sharpe Ratio**: Measure risk-adjusted returns for each fund
-- 🔄 **Live Data**: Real-time data integration with Yahoo Finance API
+-  **Automatic Clustering**: K-Means algorithm classifies funds without pre-labeled data
+-  **Style Box Visualization**: Interactive 3x3 heatmap of the Morningstar Style Box
+-  **Risk-Return Analysis**: Visualize volatility vs. performance relationships
+-  **Sharpe Ratio**: Measure risk-adjusted returns for each fund
+-  **Live Data**: Real-time data integration with Yahoo Finance API
 
-## 🏗️ Project Structure
+##  Project Structure
 mutual-fund-style-classifier/
 ├── app/
 │ └── main.py # Streamlit web application
@@ -35,7 +35,7 @@ mutual-fund-style-classifier/
 
 text
 
-## 🚀 Quick Start Guide
+##  Quick Start Guide
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -66,7 +66,7 @@ python preload_data_simple.py
 
 # 6. Run the Streamlit app
 streamlit run app/main.py
-📊 Visualizations & Interpretations
+** Visualizations & Interpretations**
 Visualization	What It Shows	Investment Insight
 Morningstar Style Box	3x3 matrix of Cap Size vs Investment Style	Large Cap = stable, Small Cap = high growth potential
 Risk-Return Map	Volatility vs Average Return	Higher Sharpe Ratio = better risk-adjusted returns
@@ -79,7 +79,7 @@ Machine Learning	Scikit-learn (K-Means)	Unsupervised clustering
 Data Source	Yahoo Finance API	Real-time market data
 Visualization	Plotly	Interactive charts & heatmaps
 Data Processing	Pandas, NumPy	Feature engineering
-📈 Methodology Explained
+**Methodology Explained**
 Features Used for Classification
 Feature	What It Measures	Investment Meaning
 Volatility	Price fluctuation	Small Cap > Mid Cap > Large Cap
@@ -99,7 +99,7 @@ Volatility ranking → Market Cap (Low = Large Cap, High = Small Cap)
 
 Momentum ranking → Style (Low = Value, High = Growth)
 
-🎯 Example Results
+**Example Results**
 After running the application, you'll see:
 
 text
