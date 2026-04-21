@@ -56,42 +56,42 @@ text
 
 **Step-by-step installation:**
 
-```bash
-# 1. Clone the repository
+
+###  1. Clone the repository
 git clone https://github.com/YOUR_USERNAME/mutual-fund-style-classifier.git
 cd mutual-fund-style-classifier
 
-# 2. Create virtual environment
+###  2. Create virtual environment
 python -m venv venv
 
-# 3. Activate virtual environment
-# On Windows:
+###  3. Activate virtual environment
+###  On Windows:
 venv\Scripts\activate
-# On Mac/Linux:
+###  On Mac/Linux:
 source venv/bin/activate
 
-# 4. Install dependencies
+###  4. Install dependencies
 pip install -r requirements.txt
 
-# 5. Preload market data (one-time setup)
+###  5. Preload market data (one-time setup)
 python preload_data_simple.py
 
-# 6. Run the Streamlit app
+###  6. Run the Streamlit app
 streamlit run app/main.py
-4. VISUALIZATIONS
+##  4. VISUALIZATIONS
 Visualization	Description	Investment Insight
 Morningstar Style Box	3x3 matrix of Cap Size vs Investment Style	Large Cap = stable, Small Cap = high growth potential
 Risk-Return Map	Volatility vs Average Return	Higher Sharpe Ratio = better risk-adjusted returns
 Cluster Distribution	Automatic fund groupings	Funds with similar characteristics cluster together
 Style Distribution	Bar chart of style categories	See which investment styles dominate  portfolio
-5. TECHNOLOGY STACK
+##  5. TECHNOLOGY STACK
 Component	Technology	Purpose
 Frontend	Streamlit	Interactive web dashboard
 Machine Learning	Scikit-learn (K-Means)	Unsupervised clustering
 Data Source	Yahoo Finance API	Real-time market data
 Visualization	Plotly	Interactive charts and heatmaps
 Data Processing	Pandas, NumPy	Feature engineering
-6. METHODOLOGY
+##  6. METHODOLOGY
 Features Used for Classification:
 
 Feature	What It Measures	Investment Meaning
@@ -113,7 +113,7 @@ Volatility ranking -> Market Cap (Low = Large Cap, High = Small Cap)
 
 Momentum ranking -> Style (Low = Value, High = Growth)
 
-7. EXAMPLE RESULTS
+##  7. EXAMPLE RESULTS
 After running the application, you will see:
 
 text
@@ -126,22 +126,22 @@ Morningstar Style Box:
 | Mid Cap     | MDYV    | IJH     | MDYG    |
 | Small Cap   | SLYV    | IJR     | SLYG    |
 +-------------+---------+---------+---------+
-8. TROUBLESHOOTING
+##  8. TROUBLESHOOTING
 Issue	Solution
 ModuleNotFoundError	Run pip install -r requirements.txt
 No data in app	Run python preload_data_simple.py first
 Timezone errors	Latest code handles UTC conversion automatically
 Port already in use	Run streamlit run app/main.py --server.port 8502
-9. LICENSE
+## 9. LICENSE
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-10. AUTHOR
+## 10. AUTHOR
 mcml1225
 
 GitHub: @mcml1225
 
 
-11. ACKNOWLEDGMENTS
+## 11. ACKNOWLEDGMENTS
 Morningstar, Inc. for the Style Box methodology
 
 Yahoo Finance for providing free market data API
