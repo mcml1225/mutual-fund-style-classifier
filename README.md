@@ -57,27 +57,28 @@ text
 **Step-by-step installation:**
 
 
-###  1. Clone the repository
+### 1. Clone the repository
 git clone https://github.com/YOUR_USERNAME/mutual-fund-style-classifier.git
 cd mutual-fund-style-classifier
 
-###  2. Create virtual environment
+### 2. Create virtual environment
 python -m venv venv
 
-###  3. Activate virtual environment
-###  On Windows:
+### 3. Activate virtual environment
+### On Windows:
 venv\Scripts\activate
-###  On Mac/Linux:
+### On Mac/Linux:
 source venv/bin/activate
 
-###  4. Install dependencies
+### 4. Install dependencies
 pip install -r requirements.txt
 
-###  5. Preload market data (one-time setup)
+### 5. Preload market data (one-time setup)
 python preload_data_simple.py
 
-###  6. Run the Streamlit app
+### 6. Run the Streamlit app
 streamlit run app/main.py
+
 ##  4. VISUALIZATIONS
 Visualization	Description	Investment Insight
 Morningstar Style Box	3x3 matrix of Cap Size vs Investment Style	Large Cap = stable, Small Cap = high growth potential
