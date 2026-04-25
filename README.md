@@ -58,7 +58,7 @@ text
 
 
 ### 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/mutual-fund-style-classifier.git
+git clone https://github.com/mcml1225/mutual-fund-style-classifier.git
 cd mutual-fund-style-classifier
 
 ### 2. Create virtual environment
