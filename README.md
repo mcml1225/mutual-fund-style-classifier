@@ -23,6 +23,7 @@ An unsupervised machine learning system that automatically classifies mutual fun
 ---
 
 ## 2. PROJECT STRUCTURE
+```
 mutual-fund-style-classifier/
 │
 ├── app/
@@ -42,7 +43,7 @@ mutual-fund-style-classifier/
 ├── requirements.txt # Python dependencies
 ├── .gitignore # Git ignore rules
 └── README.md # This file
-
+```
 text
 
 ---
