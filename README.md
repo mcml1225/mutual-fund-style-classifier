@@ -44,9 +44,7 @@ mutual-fund-style-classifier/
 ├── .gitignore # Git ignore rules
 └── README.md # This file
 ```
-text
 
----
 
 ## 3. INSTALLATION
 
